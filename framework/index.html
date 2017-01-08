@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1">
+        <title>Kitten Portfolio</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="text/javascript" href="bootstrap/js/jquery-3.1.1.min.js">
+        <link rel="text/javascript" href="bootstrap/js/bootstrap.min.js">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="title-logo" src="http://placehold.it/100x100" alt="Portfolio logo">
+                </div>
+                <div class="col-md-6 text-right text-uppercase">
+                    <h1 class="title-super text-thin">Jane Doette</h1>
+                    <h3>Front-end Ninja</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="img-responsive" src="http://placekitten.com/1140/350" data-toggle="modal" data-target="#project1">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-muted">Featured Work</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img class="img-responsive" src="http://placekitten.com/555/300" alt="Appify kitty">
+                    <h3 class="text-uppercase">Appify</h3>
+                    <p><a href="http://github.com/udacity/appify">http://github.com/udacity/appify</a></p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" src="http://placekitten.com/555/300" alt="Sunflower kitty">
+                    <h3 class="text-uppercase">Sunflower</h3>
+                    <p><a href="http://github.com/udacity/sunflower">http://github.com/udacity/sunflower</a></p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" src="http://placekitten.com/555/300" alt="Bokeh kitty">
+                    <h3 class="text-uppercase">Bokeh</h3>
+                    <p><a href="http://github.com/udacity/bokeh">http://github.com/udacity/bokeh</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="http://placekitten.com/1140/350">
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
