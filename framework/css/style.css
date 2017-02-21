@@ -13,6 +13,10 @@ nav a, button {
     min-width: 48px;
 }
 
+.col-md-4 > .img-responsive {
+    margin:  0 auto;
+}
+
 .text-muted {
     color: #BCBBBB;
 }
