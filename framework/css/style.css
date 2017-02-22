@@ -1,10 +1,12 @@
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #747784;
     font-weight: 300;
 }
 
-img, embed, object, video {
+img,
+object,
+video {
     max-width: 100%;
 }
 
@@ -18,7 +20,7 @@ nav a, button {
 }
 
 .text-muted {
-    color: #BCBBBB;
+    color: #bcbbbb;
 }
 
 .text-thin {
